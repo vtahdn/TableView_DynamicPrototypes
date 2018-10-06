@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		FAE6D508215B874E008E6F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D507215B874E008E6F18 /* AppDelegate.swift */; };
-		FAE6D50A215B874E008E6F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D509215B874E008E6F18 /* ViewController.swift */; };
 		FAE6D50D215B874E008E6F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D50B215B874E008E6F18 /* Main.storyboard */; };
 		FAE6D50F215B874E008E6F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D50E215B874E008E6F18 /* Assets.xcassets */; };
 		FAE6D512215B874E008E6F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D510215B874E008E6F18 /* LaunchScreen.storyboard */; };
 		FAE6D51D215B874E008E6F18 /* Happy_Birthday_To_Ha_MyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D51C215B874E008E6F18 /* Happy_Birthday_To_Ha_MyTests.swift */; };
 		FAE6D528215B874F008E6F18 /* Happy_Birthday_To_Ha_MyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D527215B874F008E6F18 /* Happy_Birthday_To_Ha_MyUITests.swift */; };
+		FAE6D539215B8761008E6F18 /* HM1square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D536215B8761008E6F18 /* HM1square.jpg */; };
+		FAE6D53A215B8761008E6F18 /* HM2square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D537215B8761008E6F18 /* HM2square.jpg */; };
+		FAE6D53B215B8761008E6F18 /* HM3square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAE6D538215B8761008E6F18 /* HM3square.jpg */; };
+		FAE6D53D215B87CF008E6F18 /* BirthdayTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D53C215B87CF008E6F18 /* BirthdayTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		FAE6D504215B874E008E6F18 /* Happy_Birthday_To_Ha_My.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happy_Birthday_To_Ha_My.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE6D507215B874E008E6F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAE6D509215B874E008E6F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAE6D50C215B874E008E6F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE6D50E215B874E008E6F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE6D511215B874E008E6F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		FAE6D523215B874F008E6F18 /* Happy_Birthday_To_Ha_MyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Happy_Birthday_To_Ha_MyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE6D527215B874F008E6F18 /* Happy_Birthday_To_Ha_MyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_Birthday_To_Ha_MyUITests.swift; sourceTree = "<group>"; };
 		FAE6D529215B874F008E6F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE6D536215B8761008E6F18 /* HM1square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HM1square.jpg; sourceTree = "<group>"; };
+		FAE6D537215B8761008E6F18 /* HM2square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HM2square.jpg; sourceTree = "<group>"; };
+		FAE6D538215B8761008E6F18 /* HM3square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HM3square.jpg; sourceTree = "<group>"; };
+		FAE6D53C215B87CF008E6F18 /* BirthdayTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,9 @@
 		FAE6D506215B874E008E6F18 /* Happy_Birthday_To_Ha_My */ = {
 			isa = PBXGroup;
 			children = (
+				FAE6D535215B8757008E6F18 /* Resource */,
 				FAE6D507215B874E008E6F18 /* AppDelegate.swift */,
-				FAE6D509215B874E008E6F18 /* ViewController.swift */,
+				FAE6D53C215B87CF008E6F18 /* BirthdayTVC.swift */,
 				FAE6D50B215B874E008E6F18 /* Main.storyboard */,
 				FAE6D50E215B874E008E6F18 /* Assets.xcassets */,
 				FAE6D510215B874E008E6F18 /* LaunchScreen.storyboard */,
@@ -123,6 +130,16 @@
 				FAE6D529215B874F008E6F18 /* Info.plist */,
 			);
 			path = Happy_Birthday_To_Ha_MyUITests;
+			sourceTree = "<group>";
+		};
+		FAE6D535215B8757008E6F18 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6D536215B8761008E6F18 /* HM1square.jpg */,
+				FAE6D537215B8761008E6F18 /* HM2square.jpg */,
+				FAE6D538215B8761008E6F18 /* HM3square.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE6D512215B874E008E6F18 /* LaunchScreen.storyboard in Resources */,
+				FAE6D53B215B8761008E6F18 /* HM3square.jpg in Resources */,
 				FAE6D50F215B874E008E6F18 /* Assets.xcassets in Resources */,
 				FAE6D50D215B874E008E6F18 /* Main.storyboard in Resources */,
+				FAE6D539215B8761008E6F18 /* HM1square.jpg in Resources */,
+				FAE6D53A215B8761008E6F18 /* HM2square.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE6D50A215B874E008E6F18 /* ViewController.swift in Sources */,
+				FAE6D53D215B87CF008E6F18 /* BirthdayTVC.swift in Sources */,
 				FAE6D508215B874E008E6F18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
